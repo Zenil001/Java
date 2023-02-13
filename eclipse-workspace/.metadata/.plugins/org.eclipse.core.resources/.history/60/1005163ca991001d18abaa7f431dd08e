@@ -1,0 +1,40 @@
+package javaDemo1;
+
+import java.util.Scanner;
+
+public class j16calcmenudriven {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		
+		int a,b,c;
+		
+		System.out.print("Enter Number 1=>");
+		a=sc.nextInt();
+			
+		System.out.print("Enter Number 2=>");
+		b=sc.nextInt();
+		
+		System.out.printin("Enter 1 for  Add 2 for Sub 3 for Mul 4 for Div=>");
+		c=sc.nextInt();
+		
+		if (c==1) {
+			System.out.printin(" Add=>"+(a+b));
+		}
+		else if (c==2) {
+			System.out.printin(" Sub=>"+(a-b));
+		}
+		else if (c==3) {
+			System.out.printin(" Mul=>"+(a*b));
+		}
+		else if (c==4) {
+			System.out.printin(" Div=>"+(a/b));
+		}
+		else
+		{
+			System.out.printin(" Wrong opt"));
+		}
+	}
+
+}

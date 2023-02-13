@@ -1,0 +1,26 @@
+package javaDemo1;
+
+import java.util.Scanner;
+
+public class j10age {
+
+
+		public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+			
+			
+			int n;
+			
+			System.out.print("Enter Age =>");
+			n=sc.nextInt();
+			
+			if(n<18) {
+				System.out.print("You are eligible to vote");
+			}
+			else {
+				System.out.print("You are not eligible to vote");
+			}
+			}
+	}
+
+}

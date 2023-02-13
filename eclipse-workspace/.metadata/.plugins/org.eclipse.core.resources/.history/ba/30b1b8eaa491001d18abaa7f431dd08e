@@ -1,0 +1,36 @@
+package javaDemo1;
+
+import java.util.Scanner;
+
+public class j13avg {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		
+		int e,h,m;
+		
+		System.out.print("Enter Englishmarks=>");
+		e=sc.nextInt();
+		
+		System.out.print("Enter Hindimarks=>");
+		h=sc.nextInt();
+		
+		System.out.print("Enter Mathsmarks=>");
+		m=sc.nextInt();
+		System.out.println("Total>"+(e+h+m));
+		
+		if(e+h+m<50){
+			System.out.println("You are in c gread");
+		}
+		else if(e+h+m>50) and (e+h+m<100){
+			System.out.println("You are in B gread");
+			
+		}
+		else {
+			System.out.println("You are in A gread");
+		}
+
+	}
+
+}

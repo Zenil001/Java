@@ -1,0 +1,51 @@
+1>What is JIT?
+2>What is class loader?
+3>What are mamory allocations available in java?
+4>Will the program run if i write static public void main?
+5>What is default value stored in local variables?
+7>What is an Association?
+8>Define copy constructor in java
+9>What is a Marker interface?
+10>What is object cloning?
+11>Why is java not completely object oriented?
+12>Define wrapper classes in java 
+13>Define singleton classes in java
+14>Define package in java
+15>Can you implement pointer in a java program?
+16>Differentiate between instance and local variables
+17>Explain java string pool?
+18>What is an exception?
+19>What is final keyword in java?
+20>What happens whaen main()isn't declared as static?
+21>What is JDK?Mention the variants of JDK
+22>Brief Access Specifiers and Types of Access Specifiers
+23>
+
+
+
+ Use of Super
+Super variables refer to the variable of a variable of the parent class.
+Super() invokes the constructor of immediate parent class.
+Super refers to the method of the parent class.
+
+
+ Use of final
+
+The final keyword in java is used to restrict the user. 
+The java final keyword can be used in many context. Final can be:
+variable
+method
+class
+The final keyword can be applied with the variables,
+	a final variable that have no value it is called 
+	blank final variable or uninitialized final variable. 
+	It can be initialized in the constructor only. 
+	The blank final variable can be static also which 
+	will be initialized in the static block only.
+	We will have detailed learning of these. 
+	Let's first learn the basics of final keyword.
+
+
+Read staticvariable,static block and statick function.
+
+

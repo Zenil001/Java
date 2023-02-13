@@ -1,0 +1,47 @@
+Q>    What is Jagged array in Java?
+Ans>  Jagged array is a multidimensional array where member arrays are of different size. 
+	 For example, we can create a 2D array where first array is of 3 elements, 
+      and is of 4 elements. 
+	 Following is the example demonstrating the concept of jagged array.
+
+	A jagged Array is an array of arrays where each element is an array.
+     It is a special type of Multidimensional array where there are a variable
+     number of columns in each row.
+	
+
+	A jagged array is an array whose elements are arrays, possibly of different sizes.
+	A jagged array is sometimes called an "array of arrays.
+	" The following examples show how to declare, initialize, and access jagged arrays.
+
+
+string buffer , string builder, wrapper class=>autoboxing, unboxing in wrapper class;
+
+
+Difference between StringBuffer                                                                                           StringBuilder
+
+1)StringBuffer is synchronized i.e. thread safe.It means two threads can't call the methods of StringBuffer simultaneously.	StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+2)	StringBuffer is less efficient than StringBuilder.	                                                                  StringBuilder is more efficient than StringBuffer.
+3)	StringBuffer was introduced in Java 1.0	                                                                                 StringBuilder was introduced in Java 1.5
+
+
+
+What is string Buffer=>java StringBuffer ક્લાસનો ઉપયોગ મ્યુટેબલ (સુધારી શકાય તેવા) સ્ટ્રિંગ ઑબ્જેક્ટ્સ બનાવવા માટે થાય છે. 
+                       જાવામાં સ્ટ્રિંગબફર ક્લાસ સ્ટ્રિંગ ક્લાસ જેવો જ છે સિવાય કે તે મ્યુટેબલ છે એટલે કે તેને બદલી શકાય છે.
+
+
+What is String Builder=>Java StringBuilder ક્લાસનો ઉપયોગ મ્યુટેબલ (સુધારી શકાય તેવી) સ્ટ્રિંગ બનાવવા માટે થાય છે. Java StringBuilder ક્લાસ સ્ટ્રિંગબફર ક્લાસ જેવો જ છે સિવાય કે તે નોન-સિંક્રોનાઇઝ્ડ છે.
+                         તે JDK 1.5 થી ઉપલબ્ધ છે.
+
+Wrapperclass=>જાવામાં રેપર ક્લાસ આદિમને ઑબ્જેક્ટમાં અને ઑબ્જેક્ટને આદિમમાં રૂપાંતરિત કરવાની પદ્ધતિ પ્રદાન કરે છે.
+              J2SE 5.0 થી, ઑટોબૉક્સિંગ અને અનબૉક્સિંગ સુવિધા આદિમને ઑબ્જેક્ટ્સમાં અને ઑબ્જેક્ટ્સને ઑટોમૅટિક રીતે આદિમમાં રૂપાંતરિત કરે છે.
+              ઑબ્જેક્ટમાં આદિમનું સ્વયંસંચાલિત રૂપાંતર ઑટોબૉક્સિંગ અને ઊલટું અનબૉક્સિંગ તરીકે ઓળખાય છે
+
+What is Autoboxing=>આદિમ ડેટા પ્રકારનું તેના અનુરૂપ રેપર વર્ગમાં સ્વચાલિત રૂપાંતરણ ઓટોબોક્સિંગ તરીકે ઓળખાય છે,
+                    ઉદાહરણ તરીકે, બાઈટથી બાઈટ, અક્ષરથી અક્ષર, પૂર્ણાંકથી પૂર્ણાંક, લાંબાથી લાંબા, ફ્લોટથી ફ્લોટ,
+                    બુલિયનથી બૂલિયન, ડબલથી ડબલ અને ટૂંકી ટૂંકા માટે.
+
+What is Unboxing=>રેપર પ્રકારનું તેના અનુરૂપ આદિમ પ્રકારમાં સ્વચાલિત રૂપાંતર અનબોક્સિંગ તરીકે ઓળખાય છે. 
+                  તે ઓટોબોક્સિંગની વિપરીત પ્રક્રિયા છે. જાવા 5 થી,આપણે રેપર પ્રકારને આદિકાળમાં કન્વર્ટ કરવા માટે રેપર વર્ગોની intValue() 
+                  પદ્ધતિનો ઉપયોગ કરવાની જરૂર નથી
+
+

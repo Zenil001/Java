@@ -1,0 +1,20 @@
+package javaDemo1;
+
+import java.util.Scanner;
+
+public class j5uservaluetri {
+
+	public static void main(String[] args) {
+		
+		int h,b;
+		
+		System.out.print("Enter Hight =>");
+		h=sc.nextInt();
+
+		System.out.print("Enter base =>");
+		b=sc.nextInt();
+		
+		System.out.println("Area of tringle is "+(h*b*0.5));
+	}
+
+}
