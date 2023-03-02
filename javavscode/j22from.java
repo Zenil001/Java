@@ -54,8 +54,7 @@ public class j22from implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource()==
-        btnans) 
+        if (e.getSource()==btnans) 
         {
             String s = txtans.getText();
             if (!s.isEmpty())
